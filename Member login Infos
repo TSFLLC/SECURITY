@@ -1,0 +1,2 @@
+Check member 
+EXE xp_logininfo @acctname = 'groupe accountname', @opion = 'members';

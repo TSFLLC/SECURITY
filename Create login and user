@@ -1,0 +1,15 @@
+	1. Create login with password
+CREATE LOGIN MyLogin WITH PASSWORD = '123';
+
+	2. Create User for Login
+
+CREATE USER Guru99 for login MyLogin
+
+	3. GRANT PERMISSION ON OBJECT
+USE DBNames
+GO
+Grant datareader on TableA to Guru99
+
+
+Check member 
+EXE xp_logininfo @acctname = 'groupe accountname', @opion = 'members';
